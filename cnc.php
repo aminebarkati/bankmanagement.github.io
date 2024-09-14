@@ -1,6 +1,6 @@
 <?php
 // $id=mysqli_connect("localhost","id21722409_wisdom","Admin-123","id21722409_bank");
-$id=mysqli_connect("localhost","root","","bank1");
+$id=mysqli_connect("localhost","root","","bank");
 if(!isset($_SESSION)){
   session_start();
 }

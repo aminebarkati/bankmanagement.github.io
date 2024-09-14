@@ -1,0 +1,102 @@
+/* global */
+@media only screen and (max-width: 800px) {
+            .ss {
+                position:absolute;
+                top:300px;
+                font-family: "Lora", serif; 
+                font-weight: 400;
+                color: #143774;
+            }
+            .cc {
+                display: none;
+            }
+}
+*{
+  font-family: "Lora", serif; 
+  font-weight: 400;
+  margin: 0px;
+}
+a{
+    color: #143774;
+    text-decoration: none;
+}
+/* header */
+header{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: #EBEBEB;
+}
+header h1 {
+  color: #143774;
+  margin: 25px;
+  display: inline-block;
+}
+ul{
+  float: right;
+  list-style: none;
+}
+li{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+li a:hover{
+  text-shadow: #143774 1px 0 10px;
+}
+li a{
+  text-align: center;
+  padding-top: 35px;
+  font-size: large;
+  display: block;
+  width: 200px;
+  height: 65px;
+}
+/* footer */
+footer{
+  color: #143774;
+  background-color:#EBEBEB ;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+}
+footer a,footer h3{
+  display: block;
+  float: left;
+  margin: 10px;
+}
+#time{
+float: right;
+}
+/* section */
+section{
+  position: fixed;
+  height: 100%;
+  top: 100px;
+  width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+/* form */
+form{
+  margin: 100px auto;
+  width: fit-content;
+}
+fieldset{
+    width: 400px;
+}
+fieldset table{
+    width: 350px;
+    margin: auto;
+    margin-left: 50px;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+  width: 170px;
+  height: 20px; 
+}
+tr{
+  height: 40px;
+}
