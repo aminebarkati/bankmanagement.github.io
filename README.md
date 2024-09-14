@@ -6,7 +6,8 @@ The **Bank Management System Web App** is a secure and innovative solution desig
    
 2. **Admin Panel**: 
    - Access detailed user information, including gender, card validation, deposit history, loan data, and current balances.
-   - ![1](https://github.com/user-attachments/assets/0193c970-70bd-469c-ab82-33fc5a1f05c7)
+   - ![11](https://github.com/user-attachments/assets/b78e933e-ad53-4f6a-8d22-015daf234829)
+
 
    - View and manage transaction statistics with real-time updates on transaction statuses (approved, pending, or rejected).
    ![2](https://github.com/user-attachments/assets/cf01a1ba-fd6b-4aa8-a8cd-c4373f1a0ec0)
