@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="imgssrc/bank-icon.jpg" type="image/x-icon"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Ubuntu=300,400,700&amp;display=swap">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Bank Account Management</title>
+</head>
+<body class="bod">
+  <header>
+    <div id="tit">
+      <img src="imgssrc/bank.png" alt="" srcset="" width="80px">
+      <h1>Bank Account Management</h1>
+    </div>
+    <ul>
+      <li><a href="index.html" style="float: right;">Log In</a></li>
+    </ul>
+
+  </header>
+  <section>
+    <form action="signin.php" method="post" onsubmit="return signinvf()">
+      <fieldset>
+        <legend>Sign In</legend>
+        		<table>
+              <tr>
+                <td><label for="fname">first name :</label></td>
+                <td><input type="text" id="fname" name="fname" placeholder=" your first name"
+                    required></td>
+              </tr>
+              <tr>
+                <td><label for="lname">last name :</label></td>
+                <td><input type="text" id="lname" name="lname" placeholder=" your last name"
+                    required></td>
+              </tr>
+              <tr>
+                <td><label for="email">email :</label></td>
+                <td><input type="email" id="email" name="email" placeholder=" your email"
+                    required></td>
+              </tr>
+              <tr>
+                <td><label for="gender">gender :</label></td>
+                <td>
+                  <select name="gender" id="gender">
+                    <option value="M" selected>male</option>
+                    <option value="F">female</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="dob">date of birth :</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+              </tr>
+              <tr>
+                <td><label for="user">card name :</label></td>
+                <td><input type="text" id="user" name="user"
+                    placeholder=" (username) " required></td>
+              </tr>
+              <tr>
+                <td><label for="pass">password :</label></td>
+                <td><input type="password" id="pass" name="pass"
+                    placeholder=" password" required></td>
+              </tr>
+              <tr>
+                <td><label for="cvv">cvv :</label></td>
+                <td><input type="password" id="cvv" name="cvv" placeholder="cvv" maxlength="3" required></td>
+              </tr>
+              <tr id="submit">
+                <td><input type="submit"  id="submit" value="submit"></td>
+                <td><input type="reset"  id="reset" value="reset"></td>
+              </tr>
+					</table>
+      </fieldset>
+    </form>
+  </section>
+
+  <footer>
+    <h3>@Made By Mohamed Amine Barkati</h3>
+    <div>
+        <a href="https://www.facebook.com/thewisdom55/" target="_blank"><img   src="imgssrc/facebook.png"alt="" width="30px" height="30px" srcset=""></a>
+        <a href="https://www.instagram.com/barkati_mohamed_amine/" target="_blank"><img src="imgssrc/instagram.png"alt="" width="30px" height="30px" srcset=""></a>
+
+    </div>
+    <h3 id="time"></h3>
+  </footer>
+  <script src="js/controls.js"></script>
+</body>
+</html>
