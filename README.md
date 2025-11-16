@@ -1,5 +1,5 @@
 # bankmanagement.github.io
-The **Bank Management System Web App** is a secure and innovative solution designed for managing and tracking banking operations. It leverages PHP for backend logic and MySQL for database manipulation, offering seamless interactions through a user-friendly interface developed with HTML5, CSS, and JavaScript. 
+The **Bank Management System Web App** is designed for managing and tracking banking operations. It leverages PHP for backend logic and MySQL for database manipulation, offering seamless interactions through a user-friendly interface developed with HTML5, CSS, and JavaScript. 
 
 ### Key Features:
 1. **Login & Sign-in System**:authentication for both users and administrators.
